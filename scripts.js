@@ -54,3 +54,6 @@ function showall (elements, ingred, direc, equipmenta) {
     elements[index].style.visibility === "visible";
   }
 }
+
+document.getElementById('awoo').innerHTML = '<img width="500" height="500" src="https://cdn.shopify.com/s/files/1/0086/6320/3921/products/Filou_Eating_800x.gif?v=1604302415">';
+

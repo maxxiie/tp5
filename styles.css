@@ -66,6 +66,14 @@ body{
   border-radius: 5em;
 }
 
+#awoo{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  border: dotted;
+  border-radius: 5em;
+}
 
 /* from the demo on responsive design */
 
@@ -92,4 +100,5 @@ body{
     font-family: roboto;
     font-size: 20px;
   }
+}.awoo {
 }
