@@ -21,6 +21,29 @@ div {
   border-radius: 5em;
 }
 
+.buttona{
+  font-family: 'Potta One';
+  float: none;
+  display:inline-block;
+  width: 30%;
+  padding: 1vw;
+  padding-bottom:3vw;
+  margin:3vw;
+  border:0px;
+  margin-left: auto;
+  margin-right:auto;
+  background-color: lightgrey;
+  border-radius: 5em;
+  float:center;
+  color: purple;
+  border-color: pink;
+  border-style: dotted;
+}
+
+.buttona:hover{
+  background-color:pink;
+}
+
 img#macaarooo{
   display: block;
   margin-left: auto;
@@ -73,6 +96,7 @@ body{
   width: 30%;
   border: dotted;
   border-radius: 5em;
+  float: center;
 }
 
 /* from the demo on responsive design */
@@ -100,5 +124,4 @@ body{
     font-family: roboto;
     font-size: 20px;
   }
-}.awoo {
 }
