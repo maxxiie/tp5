@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+h1 {
+  text-align: center;
+  font-family: 'Potta One', cursive;
+}
+
+h4{
+  text-align: center;
+}
+
+div {
+  display:block;
+  float: center;
+  width: 80%;
+  padding: 1vw;
+  padding-bottom:3vw;
+  border:4px dotted gray;
+  margin-left: auto;
+  margin-right:auto;
+  background-color: lightgrey;
+  border-radius: 5em;
+}
+
+img#macaarooo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  border: dotted;
+  border-radius: 5em;
+}
+
+body{
+  background-color:grey;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#last{
+  float: none;
+  display:block;
+  width: 50%;
+  padding: 1vw;
+  padding-bottom:3vw;
+  margin:3vw;
+  border:0px;
+  margin-left: auto;
+  margin-right:auto;
+  background-color: grey;
+  border-radius: none;
+}
+
+#notes{
+  float: none;
+  display:block;
+  width: 80%;
+  padding: 1vw;
+  padding-bottom:3vw;
+  margin:3vw;
+  border:0px;
+  margin-left: auto;
+  margin-right:auto;
+  background-color: lightgrey;
+  border-radius: 5em;
+}
+
+
+/* from the demo on responsive design */
+
+@media (orientation: landscape) {
+  
+  div {
+  display:inline-block;
+  width: 30%;
+  padding: 1vw;
+  margin-top:3vw;
+  padding-bottom:3vw;
+  border:8px dotted gray;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: lightgrey;
+  }
+  
+}
+
+@media screen and (max-width: 575px){
+  #notes {
+    background-color:purple;
+    color: white;
+    font-family: roboto;
+    font-size: 20px;
+  }
+}
